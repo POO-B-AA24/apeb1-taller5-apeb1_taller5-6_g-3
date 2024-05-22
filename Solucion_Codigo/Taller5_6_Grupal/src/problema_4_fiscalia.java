@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class problema_4_fiscalia {
     public static void main(String[] args) {
         Scanner tc = new Scanner(System.in);
-        System.out.println("**********FISCALIA ECUATORIANA***************");
+        System.out.println("***********FISCALIA ECUATORIANA****************");
         int numeroCaso = 1;
         int seguir = 0;
         do {
