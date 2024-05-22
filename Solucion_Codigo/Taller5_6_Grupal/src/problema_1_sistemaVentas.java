@@ -1,4 +1,4 @@
-//Autores: Juan Diego Guerrero y Ricardo Espinosa
+//AUTORES: Juan Diego Guerrero y Ricardo Espinosa
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Random;
@@ -40,8 +40,8 @@ public class problema_1_sistemaVentas {
     //METODO PARA GENERAR LOS NOMBRES DE LOS PRODUCTOS ALEATORIOS
     public static String generarProductos() {
         Random aleatorio = new Random();
-        int indiceAleatorio = aleatorio.nextInt((9 - 0) + 1) + 0;
         String productos[] = {"Manzanas", "Peritas", "Naranjas", "Toronjas", "Uvitas", "Mandarinas", "Sandias", "Mangos", "Melones", "Bananas"};
+        int indiceAleatorio = aleatorio.nextInt(((productos.length-1) - 0) + 1) + 0;
         return productos[indiceAleatorio];
     }
     

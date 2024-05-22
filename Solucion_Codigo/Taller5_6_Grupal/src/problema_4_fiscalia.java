@@ -1,3 +1,4 @@
+//AUTORES: Juan Diego Guerrero y Ricardo Espinosa
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
