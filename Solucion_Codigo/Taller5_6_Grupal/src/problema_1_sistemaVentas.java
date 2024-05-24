@@ -22,7 +22,7 @@ public class problema_1_sistemaVentas {
             }
             carrito.mostrarDetalleCompra();
             carrito.calcularTotal();
-            System.out.println("El total de tu compra es de: $" + carrito.getTotal());
+            System.out.println("El total de tu compra es de:  $" + carrito.getTotal());
             System.out.println("Ingresa el pago para culminar la compra");
             double pago = tc.nextDouble();
             carrito.realizarPago(pago);
@@ -135,7 +135,7 @@ class CarritoDeCompras {
         }
     }
 
-    public void mostrarDetalleCompra() { //SE MUESTRA LOS DETALLES DE CADA PRODUCTO(OBJETO)
+    public void mostrarDetalleCompra() { //TOSTRING
         System.out.println("DETALLE DE LA COMPRA: (PRODUCTOS GENERADOS ALEATORIOS)");
         for (int i = 0; i < productos.size(); i++) {
             System.out.println("PRODUCTO: " + productos.get(i).getNombre() + "\t\tUNIDADES: " + productos.get(i).getCantidad() + "\t\tPRECIO POR UNIDAD: $" + productos.get(i).getPrecio());
